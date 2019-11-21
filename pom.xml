@@ -392,7 +392,6 @@
 			      <goals>
 				  <goal>prepare-agent</goal>
 			      </goals>
-			</execution>
                         <configuration>
                 <!-- Sets the path to the file which contains the execution data. -->
                 <destFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</destFile>
